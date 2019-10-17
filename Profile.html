@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Learning Paths</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Learning Path</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Category<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li></li>
+        <li>
+          <form class="navbar-form navbar-left" style="width:400px">
+            <div class="form-group ">
+              <input type="text" class="form-control" placeholder="Search"><span class="glyphicon glyphicon-search icon-success"></span>
+            </div>
+          </form>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-globe"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href=""><span class="glyphicon glyphicon-user"></span> Ibtisam Ur Rehman</a>
+          <ul class="dropdown-menu">
+            <li><a href="Profile.html">Profile</a></li>
+            <li><a href="Settings.html">Settings</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container ">
+      <div class="row" id="image_down">
+        <div class="col-md-3">
+            <img id="profile_image" class="img-circle" src="images/ML.jpg" alt="User Profile">
+          </div>
+          <div class="col-md-5">
+            <ul id="margintop">
+              <li class="margin-button"id="user_name">Ibtisam Ur Rehman</li>
+              <li class="margin-button">Profile Credentials</li>
+              <li class="margin-button" >Description</li>
+              <li><button type="button" class="btn btn-default">Followers <span class="badge badge-light">4</span></button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Feed</h3>
+              </div>
+              <div class="panel-body">
+                <div class="list-group">
+                  <a href="Profile.html" class="list-group-item active">Paths</a>
+                  <a href="Followers.html" class="list-group-item">Followers</a>
+                  <a href="Following.html" class="list-group-item">Following</a>
+                  <a href="Topics.html" class="list-group-item">Topics</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="panel panel-default" style="margin-left:20px">
+              <div class="panel-heading">
+                <h3 class="panel-title">Become Data Scientist</h3>
+              </div>
+              <div class="panel-body">
+              <a href="Feed_read.html">  <p>Data scientists are big data wranglers. They take an enormous mass of messy data points (unstructured and structured) and use their formidable skills in math, statistics and programming to clean, massage and organize them.</p>
+                <p>
+                  <span class="glyphicon glyphicon-user"></span> Ibtisam Ur Rehman
+                  <span class="glyphicon glyphicon-time" style="margin-left:20px" aria-hidden="true"></span> October 23, 2017
+                </p>
+              </a>
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default">Upvotes</button><!--//when click on upvotes shows all person who upvotes his path-->
+                  </div>
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default">Comments</button><!--//when click on comments shows all person who commented his path-->
+                  </div>
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default">Shares</button><!--//when click on ushares shows all person who shares his path-->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>

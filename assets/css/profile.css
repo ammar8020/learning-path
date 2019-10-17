@@ -1,0 +1,37 @@
+#image_down{
+  margin-bottom: 20px;
+}
+#profile_image{
+  width: 200px;
+  height: 200px;
+  margin-left:25px;
+}
+#margintop1{
+  margin-top: 40px;
+  list-style-type: none;
+}
+#user_namep{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#usernameibm{
+  font-size: 30px;
+  font-weight: bold;
+}
+.margin-button{
+  margin-bottom: 10px;
+}
+#user_image{
+  width:50px;
+  height:50px;
+}
+#marginright{
+  margin-right: 10px;
+}
+.img-circle{
+  border-radius: 50%;
+}
+#styletype{
+  list-style-type: none;
+}
